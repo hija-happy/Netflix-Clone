@@ -15,20 +15,20 @@ body {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/home_background.webp);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     position: relative;
-    padding: 10px 8%;
+    padding: 3vmin 10%;
 }
 
 nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 2vmin 0;
 }
 
 nav .logo {
-    width: 150px;
+    width: 16vmin;
     height: auto;
 }
 
@@ -36,16 +36,16 @@ nav button {
     border: none;
     background-color: #db0001;
     color: white;
-    padding: 5px 0.5rem;
-    border-radius: 2px;
+    padding: 0.5vmin 0.5rem;
+    border-radius: 0.2vmin;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 2vmin;
 }
 
 .nav-language {
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.465);
-    padding: 5px 4px;
+    border: 0.1vmin solid rgba(255, 255, 255, 0.465);
+    padding: 0.5vmin 0.5rem;
 }
 /* .hero {
     height: 100%;
@@ -83,20 +83,20 @@ nav button {
 }
 
 .header-content h1 {
-    font-size: 60px;
-    line-height: 55px;
-    margin-bottom: 10px;
+    font-size: 7vmin;
+    line-height: 7vmin;
+    margin-bottom: 1vmin;
 }
 
 .header-content h3 {
     font-weight: 600;
-    font-size: 20px; 
-    margin-bottom: 20px;
+    font-size: 3vmin; 
+    margin-bottom: 2vmin;
 }
 
 .header-content p {
     font-weight: 300;
-    font-size: 14px; 
+    font-size: 1.5vmin; 
     font-weight: 500;
 }
 
@@ -105,32 +105,29 @@ nav button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 1vmin;
     overflow: hidden;
 }
 
 .email-signup input {
     border: none;
     outline: none;
-    width:500px;
+    width:50vmin;
 }
 
 .email-signup input::placeholder {
     color: #c4c4c4;
     border-style: none;
-    padding-left: 20px;
-
+    padding-left: 2vmin;
 }
-
 .email-signup button {
     border: none ;
-    padding: 15px 30px;
-    font-size: 16px;
-    border-radius:  0 2px;
+    width: 10vmin;
+    padding: 1.5vmin 0 ;
+    font-size: 1vmin;
     background-color: #db0001;
     color: white;
     cursor: pointer;
-
 }
 
  /*
