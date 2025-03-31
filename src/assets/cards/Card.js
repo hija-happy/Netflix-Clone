@@ -13,7 +13,6 @@ import card_img10 from "./card10.jpeg";
 import card_img11 from "./card11.jpg";
 import card_img12 from "./card12.jpg";
 import card_img13 from "./card13.jpeg";
-import card_img14 from "./card14.jpeg";
 
 const cardsData = [
   { image: card_img1, name: "Inception" },
@@ -29,5 +28,7 @@ const cardsData = [
   { image: card_img11, name: "The Lord of the Rings" },
   { image: card_img12, name: "Harry Potter" },
   { image: card_img13, name: "The Godfather" },
-  { image: card_img14, name: "Pulp Fiction" }
 ];
+
+
+export default cardsData;

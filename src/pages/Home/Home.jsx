@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar'
 import HeroPic from '../../assets/images/movie_banner3.jpg'
 import HeroTitle from '../../assets/images/movie_title.png'
 import HeroNSeries from '../../assets/images/n-series.png';
+import TitleCard from '../../components/TitleCard'
+import Footer from '../../components/Footer'
 const Home = () => {
   return (
     <div className='home'>
@@ -20,8 +22,24 @@ const Home = () => {
               <button className='play'> &#9658; Play </button>
               <button className='my-list'> + My List</button>
              </div>
+
           </div>
         </div>
+
+        <div className="more-cards">
+        <TitleCard/>
+
+        <TitleCard title={"BlockBuster Movies"}/>
+       
+        <TitleCard title={"Only on Netflix"}/>
+       
+        <TitleCard title={"Upcoming"}/>
+       
+        <TitleCard title={"Top Pics for You"}/>
+       
+        </div>
+        <Footer/>
+        
     </div>
   )
 }

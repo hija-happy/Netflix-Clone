@@ -1,8 +1,32 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './TitleCard.css'
-const TitleCard = () => {
+import cards_data from "../assets/cards/Card";
+
+const TitleCard = ({title,category}) => {
+
+  const cardsRef = useRef();
+
+  //f or horizntal scrollling
+  useEffect(() => {
+    cardsRef.current.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      cardsRef.current.scrollLeft += e.deltaY;
+    }
+    )
+  })
   return (
-    <div>TitleCard</div>
+    <div className='titlecards'>
+      <h2>{title?title:"Popular on Netflix"}</h2>
+      <div className="card-list" ref={cardsRef}>
+        {cards_data.map((card, index)=>{
+          return  <div className='card' key={index}>
+              <img src={card.image} alt="" />
+              <p>{card.name}</p>
+
+          </div>
+        })}
+      </div>
+    </div>
   )
 }
 
