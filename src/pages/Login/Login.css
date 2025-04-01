@@ -1,0 +1,97 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.netflix-background {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+}
+
+ .logo img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 140px;
+    height: auto;
+    margin: 20px;
+
+}
+
+.login-form-main {
+    border-radius: 10px;
+    padding: 60px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.login-form-main h2 {
+    margin-bottom: 30px;
+}
+
+.login-form-main form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-form-main input {
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 84);
+    caret-color:red;
+    color: white;
+    outline: 0;
+    border: 0;
+}
+.login-form-main input::placeholder {
+  color: white;
+  opacity: 50%;
+}
+
+.login-form-main button {
+    font-weight: 800;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.login-form-main button:hover {
+    background-color: rgb(167, 2, 10);
+}
+
+.login-form-main h4 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.login-form-main .new-to-netflix {
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+}
+
+.login-form p span {
+    color: #00aaff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+.login-form p span:hover {
+    color: #0088cc;
+    text-decoration: none;
+  }
