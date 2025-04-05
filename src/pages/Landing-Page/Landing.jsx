@@ -1,13 +1,16 @@
 import React from 'react';
 import './Landing.css';
 import { useNavigate } from 'react-router-dom';
+import bgImage from '../../assets/images/home_background.webp';
+import Logo from '../../assets/images/LOGO.png';
 
 const Landing = () => {
     const navigate = useNavigate();
   return (
-    <div className="header">
+    <div className="header"> 
+        <img src={bgImage} alt="Background" className="background-img" />
       <nav>
-        <img src="/images/LOGO.png" alt="Logo" className="logo" />
+        <img src={Logo} alt="Logo" className="logo" />
         <div>
           <button className="nav-language">
             <span role="img" aria-label="globe">🌐</span>
