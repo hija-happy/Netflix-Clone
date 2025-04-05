@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+myinfo.txt
 svgs.txt
 node_modules
 dist
@@ -23,3 +23,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env
