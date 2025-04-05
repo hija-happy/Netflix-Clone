@@ -1,51 +1,110 @@
+# 🎮 Netflix Clone 
 
-# React + Vite
+A full-stack, responsive **Netflix Clone** built with **React.js**, **Vite**, **TMDB API**, and **Node.js + Express + MongoDB**. This project replicates the modern Netflix UI and integrates dynamic content fetching and user authentication.
 
-# 📺 Netflix Clone UI - Homepage
-
-A simple, responsive **Netflix Clone UI** built using **HTML** and **CSS**. This project focuses on replicating the look and feel of Netflix layout.
-
----
 ## 🚀 Features
 
-- 🎨 Clean and responsive design
-- 🔥 Netflix-inspired layout and color scheme
-- 🎬 Interactive hover effects on movie thumbnails
-- 📱 Mobile-friendly design using Flexbox and Grid
-- 🌙 Dark-themed UI similar to Netflix
+* 🎨 **Modern & Responsive UI** built with React and CSS
+* 🔥 **Netflix-inspired** dark theme and layout
+* 🎬 **Dynamic movie data** from TMDb API
+* ✨ **Interactive hover effects** on thumbnails
+* 📱 **Mobile-first** design using Flexbox and CSS Grid
+* 🔐 **User Authentication** (Login/Register) using **Node.js, Express, and MongoDB**
+* 🛆 Built with **Vite** for fast development and optimized builds
 
----
+## 🧪 Tech Stack
 
-## ⚙️ How to Run the Project Locally
+### Frontend:
+* **React.js** (with Hooks and functional components)
+* **Vite** (blazing-fast dev server and builds)
+* **Axios** for API requests
+* **TMDb API** for dynamic content
+* **Google Fonts** for modern typography
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/hija-happy/Netflix-Clone.git
-    ```
+### Backend:
+* **Node.js**
+* **Express.js**
+* **MongoDB** (via Mongoose)
+* **bcrypt** for password hashing
+* **JWT** for secure authentication
+* **CORS** & **dotenv** for environment management
 
-2. **Navigate to the Project Folder:**
-   ```bash
-   cd Netflix-Clone
-    ```
+## 🛠️ Getting Started
 
-3. **Open the Project:**
-   Open index.html directly in your browser or use a live server extension (e.g., in Visual Studio Code).
+1. **Clone the Repository**
 
----
+```
+git clone https://github.com/hija-happy/Netflix-Clone.git
+```
 
-## 💻 Technologies Used
-- HTML5 — For structure and layout
-- CSS3 — For styling and responsiveness
-- Flexbox & Grid — For flexible layouts
-- Google Fonts — For custom typography
+2. **Navigate to the Project**
 
----
+```
+cd Netflix-Clone
+```
 
-## 🚧 Disclaimer
-**⚠️ This is an ongoing project**.
-The current version includes only the homepage UI. Additional features and pages will be added in future updates. Stay tuned for improvements!
+3. **Install Frontend Dependencies**
 
----
+```
+cd client
+npm install
+```
+
+4. **Install Backend Dependencies**
+
+```
+cd ../server
+npm install
+```
+
+5. **Set Up Environment Variables**
+Create a `.env` file inside the `server` directory:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+TMDB_API_KEY=your_tmdb_api_key
+```
+
+6. **Run the Backend Server**
+
+```
+npm run dev
+```
+
+7. **Run the Frontend (React + Vite)**
+
+```
+cd ../client
+npm run dev
+```
+
+## 🧪 API Integration
+
+* 🔑 API Key from **TMDb**
+* 🍿 Fetch trending, popular, top-rated movies and TV shows
+* 📂 Use Axios to consume endpoints in the frontend
+
+## 🔐 Authentication
+
+* ✅ **Register/Login** functionality
+* 🔒 Passwords hashed with bcrypt
+* 📜 JWT-based session management
+* 🛡️ Secure routes for user-specific features
+
+## 📌 Upcoming Features
+
+* 🔍 Search functionality
+* 🎞️ Movie detail pages
+* 💾 User watchlist & favorites (protected routes)
+* 🧠 Advanced filtering & sorting
 
 ## 🙌 Acknowledgments
-Inspired by Netflix’s official UI design
+
+* Inspired by Netflix UI
+* Movie data powered by TMDb API
+
+## ⚠️ Disclaimer
+
+This project is built for educational and personal portfolio purposes. It is not affiliated with or endorsed by Netflix or TMDb.
