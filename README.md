@@ -46,19 +46,18 @@ cd Netflix-Clone
 3. **Install Frontend Dependencies**
 
 ```
-cd client
 npm install
 ```
 
 4. **Install Backend Dependencies**
 
 ```
-cd ../server
+cd backend
 npm install
 ```
 
 5. **Set Up Environment Variables**
-Create a `.env` file inside the `server` directory:
+Create a `.env` file inside the `backend` directory:
 
 ```
 PORT=5000
@@ -70,13 +69,14 @@ TMDB_API_KEY=your_tmdb_api_key
 6. **Run the Backend Server**
 
 ```
+cd backend
 npm run dev
 ```
 
 7. **Run the Frontend (React + Vite)**
 
 ```
-cd ../client
+# In the root directory
 npm run dev
 ```
 
