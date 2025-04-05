@@ -1,3 +1,6 @@
+
+# React + Vite
+
 # 📺 Netflix Clone UI - Homepage
 
 A simple, responsive **Netflix Clone UI** built using **HTML** and **CSS**. This project focuses on replicating the look and feel of Netflix layout.
