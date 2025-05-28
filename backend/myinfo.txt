@@ -1,0 +1,65 @@
+✅ Step 1: Setting Up the Backend
+1️⃣ Create the Backend Folder
+👉 Open Command Prompt (Windows) or Terminal (Mac/Linux) and run:
+
+sh
+Copy
+Edit
+mkdir netflix-backend
+cd netflix-backend
+This creates a new folder named netflix-backend and moves into it.
+
+2️⃣ Initialize a Node.js Project
+Inside the netflix-backend folder, run:
+
+sh
+Copy
+Edit
+npm init -y
+🔹 This creates a package.json file, which keeps track of dependencies and project details.
+
+✅ Step 2: Installing Dependencies
+Now, install the required packages:
+
+sh
+Copy
+Edit
+npm install express mongoose dotenv cors bcryptjs jsonwebtoken
+📌 What These Packages Do?
+Package	Purpose
+express	Backend framework for handling API requests.
+mongoose	Connects to MongoDB and allows database interactions.
+dotenv	Stores secret data (like database URLs) in a .env file.
+cors	Allows frontend (React) to communicate with backend.
+bcryptjs	Encrypts passwords for security.
+jsonwebtoken	Generates and verifies tokens for authentication.
+🔹 Install nodemon (optional but useful):
+
+sh
+Copy
+Edit
+npm install --save-dev nodemon
+Why?
+
+nodemon restarts the server automatically when changes are made.
+
+✅ Step 3: Folder Structure
+Inside netflix-backend, create the following folders and files:
+
+pgsql
+Copy
+Edit
+netflix-backend/
+│── server.js  (1)            # Main file to start the server
+│── .env    (2)               # Stores secret keys (e.g., database URL)
+│── package.json           # Manages dependencies
+│── config/ (3)
+│   ├── db.js              # Handles database connection
+│── models/ (4)
+│   ├── User.js            # Defines user structure in the database
+│── controller/
+│   ├── authController.js      # Handles user controllers like, sign up, login , loginout
+|--- Routes
+|   |---authRoutes.js
+│── middleware/
+│   ├── authMiddleware.js  # Protects secure routes

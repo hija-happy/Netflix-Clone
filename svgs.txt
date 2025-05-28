@@ -1,0 +1,27 @@
+
+// back arrow
+<img width="50" height="50" src="https://img.icons8.com/ios/50/circled-left-2.png" alt="circled-left-2"/>
+
+// bell
+<img width="24" height="24" src="https://img.icons8.com/material-sharp/24/bell.png" alt="bell"/>
+
+//fb 
+<img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/facebook-f.png" alt="facebook-f"/>
+
+// youtube 
+<img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/>
+
+// twitter
+<img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/twitterx--v1.png" alt="twitterx--v1"/>
+
+//hero banner 
+
+//hero title
+
+//info (cirlei)
+ <img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/info--v1.png" alt="info--v1"/>
+
+//insta 
+<img width="32" height="32" src="https://img.icons8.com/windows/32/instagram-new.png" alt="instagram-new"/>
+
+//search
